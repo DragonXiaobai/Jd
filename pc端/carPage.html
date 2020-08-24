@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/car.css">
+</head>
+
+<body>
+    <!-- 头部导航栏开始 -->
+    <div class="nav-container min-w">
+        <div class="w clearfix">
+            <!-- 左边导航栏 -->
+            <ul class="nav-l clearfixs">
+                <li class="white-block">
+                    <a href="#"><i style="color: #e1251b;" class="iconfont icon-dizhi"></i> 四川</a>
+                    <div class="address-container white-block-box">
+                        1111
+                    </div>
+                </li>
+            </ul>
+            <!-- 右边导航栏 -->
+            <ul class="nav-r clearfix">
+                <li>
+                    <a href="login.html">
+                        你好，请登录
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="#">
+                        免费注册
+                    </a>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#">
+                        我的订单
+                    </a>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class="white-block">
+                    <a href="#">
+                        我的京东
+                    </a>
+                    <div class="white-block-box jd-container">
+                        2222
+                    </div>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="#">
+                        京东会员
+                    </a>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class="active white-block">
+                    <a href="#">
+                        企业采购
+                    </a>
+                    <div class="white-block-box buy-container">3333</div>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class="white-block">
+                    <a href="#">
+                        客户服务
+                    </a>
+                    <div class="server-container white-block-box">4444</div>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class="white-block">
+                    <a href="#">
+                        网站导航
+                    </a>
+                    <div class="com-nav-container white-block-box">
+                        5555
+                    </div>
+                </li>
+                <li>
+                    <span>|</span>
+                </li>
+                <li class="phone-jd">
+                    <span>
+                        手机京东
+                    </span>
+
+                    <div class="phone-jd-box">
+                        <div class="trangle"></div>
+                        <div class="top-box">
+                            <div class="top-l">
+                                <img src="./images/01.webp" alt="">
+                            </div>
+                            <div class="top-r">
+                                <div class="title">手机京东</div>
+                                <div class="content">新人专享大礼包</div>
+                                <a href="#"><span class="apple-icon"></span></a>
+                                <a href="#"><span class="jiqi-icon"></span></a>
+                                <a href="#"><span class="phone-icon"></span></a>
+                            </div>
+                        </div>
+                        <div class="top-box">
+                            <div class="top-l">
+                                <img src="./images/02.webp" alt="">
+                            </div>
+                            <div class="top-r">
+                                <div class="title">关注京东</div>
+                                <div class="title">JD.COM</div>
+                                <div class="content">扫一扫，关注参与宠粉大抽奖，限时抽爱奇艺会员视频月卡</div>
+                            </div>
+                        </div>
+                        <div class="top-box">
+                            <div class="top-l">
+                                <img src="./images/03.webp" alt="">
+                            </div>
+                            <div class="top-r">
+                                <div class="title">京东金融客户端</div>
+                                <div class="content">新人专享大礼包</div>
+                                <a href="#"><span class="apple-icon"></span></a>
+                                <a href="#"><span class="jiqi-icon"></span></a>
+
+                            </div>
+                        </div>
+                        <div class="top-box">
+                            <div class="top-l">
+                                <img src="./images/04.webp" alt="">
+                            </div>
+                            <div class="top-r">
+                                <div class="title">京东健康客户端</div>
+                                <div class="content">新人专享大礼包</div>
+                                <a href="#"><span class="apple-icon"></span></a>
+                                <a href="#"><span class="jiqi-icon"></span></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 头部导航栏结束 -->
+    <!-- 搜索栏部分开始 -->
+    <div class="search-container min-w">
+        <div class="w">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/login-logo.png" alt="">
+                </a>
+                <a href="#"><b>购物车</b></a>
+            </div>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="自营">
+                <button>搜索</button>
+            </div>
+        </div>
+    </div>
+    <!-- 搜索栏部分结束 -->
+    <!-- 购物商品列表展示开始 -->
+    <div class="buy-car-container min-w">
+        <div class="w ">
+            <div class="car-tit clearfix">
+                <div class="title">
+                    <span>全部商品</span>
+                    <i>31</i>
+                </div>
+                <div class="adress">
+                    <select name="" id="">
+                        <option selected value="">四川省巴中市平昌县</option>
+                    </select>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th><input class="checkAll" type="checkbox" name="" id=""> 全选</th>
+                        <th class="goods-tit">商品</th>
+                        <th class="th-item">单价</th>
+                        <th class="th-item">数量</th>
+                        <th class="th-item">小计</th>
+                        <th class="th-item">操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- <tr class="mid-chance">
+                        <td ><input type="checkbox" name="" id="">多买多惠</td>
+                    </tr> -->
+                    <!-- <tr>
+                        <td class="check"><input type="checkbox" name=""></td>
+                        <td class="goods">
+                            <img src="./carPic/pro01.jpg" alt="">
+                            <p>公牛（BULL） 新国标插座/插线板/插排/排插/接线板/拖线板 GN-607 4位总控全长3米 </p>
+                            <span>4位总控3米</span>
+                        </td>
+                        <td class="price">
+                            <p>￥33.20</p>
+                            <select name="" id="">
+                                <option value="">促销</option>
+                            </select>
+                        </td>
+                        <td class="count">
+                            <span class="sub">-</span>
+                            <div class="pri-box">
+                                <input type="text" name=""  value="1">
+                            </div>
+                            <span class="add">+</span>
+                        </td>
+                        <td class="sum">￥33.20</td>
+                        <td class="delete">
+                            <span>删除</span>
+                        </td>
+                    </tr> -->
+                    
+                </tbody>
+            </table>
+            
+        </div>
+    </div>
+    <div class="block"></div>
+    <div class="bottom min-w">
+        <div class="w b-flex">
+            <div class="left">
+                <input id='checkAll' class="checkAll" type="checkbox" name="" id="">
+                <span>全选</span>
+                <span class="remove">删除选中商品</span>
+                <span>移到关注</span>
+                <span class="clear-car">清理购物车</span>
+            </div>
+            <div class="right">
+                <span class="">已选择<i>0</i>件商品</span>
+                <div class="pri-sum">总价：<b>￥0.00</b></div>
+                <div class="go-buy">去结算</div>
+            </div>
+        </div>   
+    </div>
+    <!-- 购物商品列表展示结束 -->
+    <script src="./js/car.js"></script>
+</body>
+
+</html>

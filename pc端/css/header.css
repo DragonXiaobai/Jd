@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+i {
+    font-style: normal;
+}
+li {
+    list-style: none;
+
+}
+.active {
+    color: #e1251b;
+}
+img {
+    vertical-align: middle;
+}
+img:hover {
+    opacity: .8;
+    /* transform: scale(1.2); */
+}
+a {
+    text-decoration: none;
+    color: #999;
+    font-size: 12px;
+}
+.min-w {
+    min-width: 1540px;
+}
+.w {
+    width: 1190px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav-container {
+    width: 100%;
+    height: 31px;
+    line-height: 31px;
+    background-color: #e3e4e5;
+    box-sizing: border-box;
+    /* border: 1px solid #ddd; */
+}
+
+.nav-container .nav-l {
+    float: left;
+   
+}
+.nav-container .white-block {
+    position: relative;
+    padding: 0;
+    
+}
+.nav-container .white-block:hover a {
+    background-color: #fff;
+    
+}
+.nav-container .white-block a {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 6px;
+    z-index: 100;
+    text-align: center;
+}
+
+.nav-container .white-block:hover .address-container {
+    display: block;
+} 
+.nav-container .white-block-box {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    top: 31px;
+    z-index: 99;
+    
+}
+.nav-l .address-container {    
+    width: 400px;
+    height: 400px;
+    left: 0;
+}
+.nav-r .jd-container {
+    width: 300px;
+    height: 200px;
+    left: 0;
+}
+.nav-container .white-block:hover .jd-container {
+    display: block;
+    
+}
+.nav-r .buy-container {
+    left: 0;
+    width: 150px;
+    height: 100px;
+}
+.nav-container .white-block:hover .buy-container {
+    display: block;
+}
+.nav-r .server-container {
+    right: -12px;
+    width: 150px;
+    height: 350px;
+}
+.nav-container .white-block:hover .server-container {
+    display: block;
+}
+.nav-r .com-nav-container {
+    right: -75px;
+    width: 1190px;
+    height: 250px;
+}
+.nav-container .white-block:hover .com-nav-container {
+    display: block;
+}
+.nav-container .nav-r {
+    float: right;
+}
+.nav-container li {
+    float: left;
+    padding: 0 6px;
+}
+
+.nav-container li a:hover {
+    color: #f10215;
+}
+.nav-container span {
+    color: #999;
+    font-size: 10px;
+}
+
+.nav-container .active a {
+    color: #f10215;
+}
+.nav-container .phone-jd {
+    position: relative;
+}
+.nav-container .phone-jd span {
+    font-size: 12px;
+}
+.nav-container .phone-jd:hover .phone-jd-box {
+    display: block;
+}
+
+.phone-jd-box {
+    display: none;
+    position: absolute;
+    width: 250px;
+    background-color: #fff;
+    right: 0;
+    top: 50%;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 1.5;
+    z-index: 99;
+}
+.nav-container .phone-jd-box .trangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    right: 24px;
+    top: -8px;  
+    border: 4px solid transparent;
+    border-bottom-color: #fff;
+}
+.phone-jd-box img {
+    width: 80px;
+    padding: 1px;
+    border: 1px solid #ccc;
+}
+.phone-jd-box .top-box {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    height: 110px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.phone-jd-box .top-box::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.top-box .top-l,.top-r {
+    float: left;
+   
+}
+
+.top-box .top-r {
+    margin-left: 10px;
+    width: 130px;
+}
+.top-box .top-r .title {
+    color: #666;
+    cursor: pointer;
+}
+.top-r .content {
+    color: #f10215;
+}
+.top-r span {
+    
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon.png);
+}
+.top-r .apple-icon {
+    background-position: 0 0;
+}
+.top-r .jiqi-icon {
+    background-position: 0 -26px;
+}
+.top-r .phone-icon {
+    background-position: 0 -52px;
+}

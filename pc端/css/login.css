@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    
+}
+li {
+    list-style: none;
+}
+img {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+    color: #999;
+}
+i {
+    font-style: italic;
+}
+span,
+p {
+    color: #999;
+}
+.active {
+    color: #e4393c!important;
+}
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-container {
+    width: 100%;
+    height: 85px;
+}
+.header-container .head-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.head-flex .l-logo {
+    position: relative;
+}
+.head-flex .l-logo img {
+    width: 170px;
+}
+.head-flex .login-pic {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    background: url(../images/l-icon.png);
+    position: absolute;
+    left: 200px;
+    top: 20px;
+}
+.head-flex .r-word {
+    margin: 50px 10px 0 0;
+}
+.head-flex .r-word a:hover {
+    color: #e4393c;
+}
+.head-flex .r-word .xiaoxi {
+    display: inline-block;
+    background: url(../images/q-icon.png);
+    width: 18px;
+    height: 14px;
+    vertical-align: bottom;
+}
+.info-show {
+    width: 100%;
+    height: 40px;
+    background-color: #fff8f0;
+    text-align: center;
+    line-height: 40px;
+}
+.focus {
+    background: url(../images/icon-tips.png) no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: bottom;
+    padding-bottom: 11px;
+}
+.info-show .font-color {
+    color: #000;
+}
+/* 内容登录部分开始 */
+.content-container {
+    width: 100%;
+    height: 475px;
+    background-color: #e93854;
+}
+.login-w {
+    width: 950px;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content: space-between; */
+}
+.login-w .left-image {
+    background: url(../images/login-img.png);
+    height: 475px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.login-w .login-box {
+    width: 350px;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 10px;
+    float: right;
+}
+.login-box .info-show-head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #fff8f0;
+}
+.login-box .login-style-tit {
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #ddd;
+    position: relative;
+}
+.login-style-tit .space-line {
+    position: absolute;
+    left: 50%;
+    top: 21px;
+    width: 1px;
+    height: 18px;
+    background-color: #ddd;
+}
+.login-box .login-style-tit a {
+    float: left;
+    display: block;
+    width: 50%;
+    color: #666;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+}
+.login-box .login-style-tit a:hover {
+    color: #e4393c;
+}
+/* 点击切换的手动登录开始 */
+.login-block {
+    margin-top: 35px;
+    text-align: center;
+    position: relative;
+}
+.login-block .user-icon,
+.login-block .pwd-icon {
+    position: absolute;
+    left: 23px;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    background: url(../images/pwd-icons-new.png) no-repeat;
+}
+.login-block .user-icon {
+    background-position: 0 0;
+    top: 0;
+}
+.login-block .pwd-icon {
+    background-position: -47px 0;
+    top: 58px;
+}
+.login-block input {
+    margin-bottom: 20px;
+    outline: none;
+    border: 0;
+    width: 304px;
+    height: 38px;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    border: 1px solid #ddd;
+}
+.login-block .find-pwd {
+    text-align: right;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    color: #666;
+}
+.login-block .find-pwd:hover a {
+    color: #e4393c;
+}
+#loginBtn {
+    background-color: #e4393c;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    line-height: 17px;
+    cursor: pointer;
+    margin-bottom: 28px;
+}
+/* 点击切换的手动登录结束 */
+.login-box .pic-ma-box {
+    margin-top: 30px;
+    text-align: center;
+}
+.login-box .pic-ma-box img {
+    width: 147px;
+}
+.pic-ma-box .open-app-box p {
+    margin-top: 20px;
+    color: #666;
+}
+.pic-ma-box .open-app-box p a {
+    color: #e4393c;
+    margin-right: 15px;
+}
+
+.pic-ma-box .open-app-box .icon-box {
+    display: inline-block;
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+}
+.pic-ma-box .open-app-box .min-icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: url('../images/zhuce-icon.png') no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.pic-ma-box .open-app-box .bi {
+    background-position: 0 0;
+}
+.pic-ma-box .open-app-box .dian {
+    background-position: -27px 0;
+}
+.pic-ma-box .open-app-box .dun {
+    background-position: -54px 0;
+}
+.login-footer-box {
+    width: 310px;
+    padding: 0 20px;
+    height: 50px;
+   
+    line-height: 50px;
+}
+.login-footer-box i {
+    vertical-align: middle;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.left-login-style {
+    float: left;
+    position: relative;
+}
+.register-box {
+    float: right;
+}
+.left-login-style .space-line-login {
+    position: absolute;
+    left: 54px;
+    top: 19px;
+    width: 1px;
+    height: 12px;
+    background-color: #ddd;
+}
+.left-login-style i {
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    background: url(../images/QQ-weixin.png) no-repeat;
+    
+}
+.left-login-style .qq-icon {
+    background-position: 0 0;
+}
+.left-login-style .weixin-icon {
+    background-position: -19px 0;
+}
+.left-login-style a {
+    color: #666;
+    margin-right: 15px;
+}
+.left-login-style a:hover {
+    color: #e4393c;
+}
+.register-box .go-icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/pwd-icons-new.png) no-repeat -104px -75px;
+}
+.register-box a {
+    font-size: 14px;
+    color: #e4393c;
+}
+/* 内容登录部分结束 */
+/* 尾部结束部分开始 */
+.login-foot-container {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0 50px 0;
+}
+.login-foot-container p {
+    margin-top: 10px;
+    color: #666;
+}
+.login-foot-container a,
+.login-foot-container span {
+    margin-left: 10px;
+    color: #666;
+}
+.login-foot-container a:hover {
+    color: #e4393c;
+}
+/* 尾部结束部分结束 */

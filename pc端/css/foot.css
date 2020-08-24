@@ -1,0 +1,155 @@
+/* 京东尾部开始 */
+.jd-footer-container {
+    width: 100%;
+    
+}
+.jd-footer-container .big-title {
+    border-bottom: 1px solid #ddd;
+}
+.jd-footer-container .big-title .w {
+    padding: 40px 0;
+}
+.jd-footer-container .big-title li {
+    float: left;
+    width: 297px;
+    text-align: center;
+}
+.jd-footer-container .big-title .foot-icon {
+    display: inline-block;
+    width: 36px;
+    height: 42px;
+    background: url(../uploads/footer-icon.png);
+}
+.jd-footer-container .big-title .duo {
+    background-position: 0 -191px;
+}
+.jd-footer-container .big-title .kuai {
+    background-position: -41px -191px;
+}
+.jd-footer-container .big-title .hao {
+    background-position: -82px -191px;
+}
+.jd-footer-container .big-title .sheng {
+    background-position: -123px -191px;
+}
+.jd-footer-container .big-title li span {
+    font-weight: bolder;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: -14px;
+    margin-left: 3px;
+}
+.cooperative-unit-box {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+}
+.foot-list-box {
+    width: 195px;
+}
+.foot-list-box .list-title,
+
+.foot-list-box .list-content a {
+    color: #666;
+
+}
+.foot-list-box .list-title {
+    font-size: 14px;
+    font-weight: bolder;
+}
+.foot-list-box .list-content {
+    margin-top: 5px;
+}
+.foot-list-box .list-content li:hover a {
+    color: #e1251b;
+}
+.foot-list-box p {
+    font-size: 12px;
+    color: #666;
+}
+.foot-list-box .look-more {
+    display: block;
+    color: #666;
+    text-align: right;
+}
+.foot-list-box .look-more:hover {
+    color: #e1251b;
+}
+.foot-last-part-container {
+    margin-top: 15px;
+    text-align: center;
+}
+.foot-last-part-container a:hover {
+    color: #e1251b;
+}
+.foot-last-part-container a,
+.foot-last-part-container span {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #666;
+}
+.foot-last-part-container .cooper-commpany-container a,
+.foot-last-part-container .cooper-commpany-container span {
+    color: #999;
+}
+.foot-last-part-container .cooper-commpany-container a:hover {
+    color: #e1251b;
+}
+.cooper-commpany-container .contury-icon {
+  
+}
+.contury-icon .con-icon::before {
+    content: "";
+    width: 15px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-bottom: 1px;
+    background: url(../uploads/footer-icon.png) no-repeat;
+}
+.contury-icon .con-icon01::before {
+    background-position: -110px -155px;
+}
+.contury-icon .con-icon02::before {
+    background-position: -168px -155px;
+}
+.contury-icon .con-icon03::before {
+    background-position: -147px -155px;
+}
+.contury-icon .con-icon04::before {
+    background-position: -127px -155px;
+}
+.contury-icon .con-icon05::before {
+    background-position: -110px -172px;
+}
+.footer-icon-container {
+    margin: 40px 0;
+}
+.footer-icon-container i {
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    background: url(../uploads/footer-icon.png) no-repeat;
+}
+.footer-icon-container .footer-icon01 {
+    background-position: -204px -111px;
+}
+.footer-icon-container .footer-icon02 {
+    background-position: -204px -74px;
+}
+.footer-icon-container .footer-icon03 {
+    background-position: -204px -36px;
+}
+.footer-icon-container .footer-icon04 {
+    background-position: -204px 0;
+}
+.footer-icon-container .footer-icon05 {
+    background-position: 0 -154px;
+}
+.footer-icon-container .footer-icon06 {
+    background-position: -204px -148px;
+}
+/* 京东尾部结束 */
